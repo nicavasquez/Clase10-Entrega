@@ -53,6 +53,7 @@ ul li {
     font-size: 1.3rem;
     font-family: Arial, Helvetica, sans-serif;
     padding: 2px;
+
 }/*para los elementos de la barra navegadora, sin viñetas
 en linea, sin subrayado, propiedades de estilo*/
 
@@ -65,7 +66,8 @@ header li a:link, header li a:visited {
 header li a:hover {
     list-style-type: none ;
     text-decoration: none ;
-    color: rgb(238, 22, 22); 
+    color: black;  
+    transform: scale(2); 
 }/*establezco como quiero que se vea el link en distintas situaciones*/
 
 header li a:active {
@@ -73,19 +75,6 @@ header li a:active {
     text-decoration: none ;
     color: rgb(17, 20, 209); 
 }/*establezco como quiero que se vea el link en distintas situaciones*/
-
-
-#Intro {
-    border: solid 2px rgb(7, 7, 7);
-    background-color: rgb(141, 124, 124);
-    height: 200px;
-    overflow: auto;
-    margin: 20px 10px 20px 10px;
-}/*mantengo esta caja para seguir practicando*/
-
-span {
-    font-weight: bold;
-}
 
 #IrEncabezado {
     text-decoration:none;
@@ -95,6 +84,34 @@ span {
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
     margin: 1.5rem; 
+    background-image: linear-gradient(to left, red, yellow);
+}
+
+#IrEncabezado:link, #IrEncabezado:visited {
+    list-style-type: none ;
+    text-decoration: none ;
+    color: rgb(5, 5, 5); 
+}
+
+#IrEncabezado:hover{
+    background-image: linear-gradient(to left, blue, green);
+    transition: all 2s;
+
+}
+.transform:hover {
+    transition: all 2s;
+}
+
+#Intro {
+    border: solid 2px rgb(7, 7, 7);
+    background-image: linear-gradient(to left, blue, red);
+    height: 200px;
+    overflow: auto;
+    margin: 20px 10px 20px 10px;
+}/*mantengo esta caja para seguir practicando*/
+
+span {
+    font-weight: bold;
 }
 
 header {
@@ -131,6 +148,7 @@ header {
 nav {
     grid-area: nav;
     align-items: center;
+    background-image: linear-gradient(to left, blue, red);
 }
 
 main {
@@ -153,24 +171,13 @@ y el nombre de la empresa al medio*/
     height: 12rem;
 }
 
-#IrEncabezado {
-    text-decoration:none;
-    font-style: italic;
-    font-weight: bold;
-    font-size: 1.2rem;
-    font-family: Arial, Helvetica, sans-serif;
-    text-align: center; 
-}
 
-#IrEncabezado:link, #IrEncabezado:visited {
-    list-style-type: none ;
-    text-decoration: none ;
-    color: rgb(5, 5, 5); 
-}
+
+
 
 footer {
     margin: 0;
-    background-image: url(../images/header.png);
+    background-image: linear-gradient(to left, blue, red);
     border-top: solid 2px black;
     align-content: stretch;
     display: grid;
