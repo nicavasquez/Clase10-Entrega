@@ -99,8 +99,51 @@ footer #bloqueLogo {
   grid-area: fLogo;
   padding: 1rem;
 }
+<<<<<<< HEAD
 footer #bloqueLogo img {
   border-radius: 50%;
+=======
+
+ul li {
+    list-style-type: none ;
+    text-decoration:none;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 1.3rem;
+    font-family: Arial, Helvetica, sans-serif;
+
+}/*para los elementos de la barra navegadora, sin viñetas
+en linea, sin subrayado, propiedades de estilo*/
+
+header li a:link, header li a:visited {
+    list-style-type: none ;
+    text-decoration: none ;
+    color: rgb(255, 255, 255); 
+}/*establezco como quiero que se vea el link en distintas situaciones*/
+
+header li a:hover {
+    list-style-type: none ;
+    text-decoration: none ;
+    color: black;  
+    transform: scale(2); 
+}/*establezco como quiero que se vea el link en distintas situaciones*/
+
+header li a:active {
+    list-style-type: none ;
+    text-decoration: none ;
+    color: rgb(17, 20, 209); 
+}/*establezco como quiero que se vea el link en distintas situaciones*/
+
+#IrEncabezado {
+    text-decoration:none;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 1.2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin: 1.5rem; 
+    background-image: linear-gradient(to left, red, yellow);
+>>>>>>> bfb0b51823eab373dabc42cd4734856c36191ff7
 }
 footer #bloqueLogo p {
   font-style: italic;
@@ -236,6 +279,7 @@ main #nosotros_main_div div #IrEncabezado:link, main #nosotros_main_div div #IrE
   color: rgb(5, 5, 5);
 }
 
+<<<<<<< HEAD
 main #serv {
   border: solid 2px rgb(7, 7, 7);
   overflow: auto;
@@ -253,6 +297,23 @@ main #serv {
 main #serv div img {
   width: 15rem;
   height: 12rem;
+=======
+.containerDiv{
+    margin: 0;
+    padding:0;
+}
+
+footer {
+    margin: 0;
+    background-image: linear-gradient(to left, blue, red);
+    border-top: solid 2px black;
+    align-content: stretch;
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-areas: 
+    "fLogo fUbicacion fRedes";    
+>>>>>>> bfb0b51823eab373dabc42cd4734856c36191ff7
 }
 
 main {

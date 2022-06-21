@@ -22,14 +22,22 @@
                 <a href="#"><img src="../images/ig.png" alt="Instagram" class="headerBordesRedondeados"></a><!--me redireccionará al ig de la empresa-->
                 <a href="#"><img src="../images/email.png" alt="Email" class="headerBordesRedondeados"></a><!--me redireccionará a envío de un email de la empresa-->
             </div>
-            <nav>
-                <ul class="navegador">
-                    <li><a href="../index.html">Home</a></li>
-                    <li><a href="./nosotros.html">Nosotros</a></li>                        
-                    <li><a href="./servicios.html">Servicios</a></li>
-                    <li><a href="./novedades.html">Novedades</a></li>
-                    <li><a href="./contacto.html">Contacto</a></li>
-                </ul>
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#">FLIA ABOGADOS</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav navegador">
+                        <a class="nav-link active transform" aria-current="page" href="../index.html">Home</a>
+                        <a class="nav-link transform" href="./nosotros.html">Nosotros</a>
+                        <a class="nav-link transform" href="./servicios.html">Servicios</a>
+                        <a class="nav-link transform" href="./novedades.html">Novedades</a>
+                        <a class="nav-link transform" href="./contacto.html">Contacto</a>
+                    </div>
+                    </div>
+                </div>
             </nav>
         </header>
 
@@ -72,6 +80,8 @@
         </footer>
     
     </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
     
 </body>
 </html>
